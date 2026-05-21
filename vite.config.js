@@ -12,9 +12,11 @@ export default defineConfig({
     emptyOutDir: true,   // Cleans outDir before building
     rollupOptions: {
       output: {
-        manualChunks: {
-          // Optional: Split vendor chunks for better caching
-          vendor: ['react', 'react-dom'],
+        // FIXED: Converted from an object to a function to prevent the "Expected Function but received Object" error
+        manualChunks(id) {
+          if (id.includes('node_modules/react') || id.includes('node_modules/react-dom')) {
+            return 'vendor';
+          }
         },
       },
     },
