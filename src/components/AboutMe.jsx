@@ -159,7 +159,7 @@ function About() {
                       <div className="lg:w-2/5">
                         <div className="sticky top-24">
                           <img 
-                            src="https://i.imgur.com/vEtIKXx.jpeg" 
+                            src="https://i.imgur.com/Dp6gNkH.jpeg" 
                             alt="Matthew - FitSmart Matthew Founder" 
                             className="w-full h-auto rounded-lg shadow-lg object-cover"
                           />
