@@ -131,7 +131,7 @@ function About() {
               {/* Background Image with gradient overlay */}
               <div className="absolute inset-0 z-0">
                 <img 
-                  src="https://i.imgur.com/vEtIKXx.jpeg"
+                  src="https://i.imgur.com/Dp6gNkH.jpeg"
                   alt="Matthew, founder and head coach of FitSmart Matthew"
                   className="w-full h-full object-cover object-top"
                   style={{
